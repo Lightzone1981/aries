@@ -49,10 +49,19 @@ linear-gradient(0deg, #F4F4F4, #F4F4F4);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #0B2349;
 }
 .scroll-arrow{
     display: block;
     margin: 0 auto;
 
+}
+.line{
+    background: linear-gradient(to right, transparent 0%, #8093FF 20%, #60DBD4 30%, #5CE4CF 60%, #7D9BFA 80%, transparent 100%);
+   
+}
+.portfolios-btn:hover h3{
+    background: linear-gradient(to right, #99A9FF 0%, #5CE4CF 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -23,6 +23,7 @@ module.exports = {
         'spiral-colored': "url('../src/Assets/patterns/colored-pattern.png')",
         'scroll-arrow': "url('../src/Assets/icons/scroll-arrow.svg')",
         'arrow-right': "url('../src/Assets/icons/arrow-right.svg')",
+        
       }
     }
   }
