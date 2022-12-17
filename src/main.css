@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@font-face{
+    font-family: 'Ginora';
+    font-weight: 700;
+    src:url('./Fonts/Ginora_regular.woff') format('woff')
+} 
+
+@font-face{
+    font-family: 'Ginora semi bold';
+    src:url('./Fonts/Ginora_semi_bold.woff') format('woff')
+}
+
+@font-face{
+    font-family: 'Ginora bold';
+    src:url('./Fonts/Ginora_bold.woff') format('woff')
+} 
+/* * {
+    overflow: hidden;
+} */
+
+html {
+    font-family: 'Ginora';
+}
+h1{
+    font-family: 'Ginora bold';
+}
+.main-title::after{
+    background: url('../src/Assets/patterns/colored-pattern.png') center/contain no-repeat;
+    width: 6em;
+    height: 5em;
+    position: absolute;
+    content:'';
+    top:8em;
+    right:0;
+}
+@media (min-width: 768px) {
+    .main-title::after{
+        top:6em;
+        width: 5em;
+        height: 4em;
+    }
+}
+mark{
+    background: conic-gradient(from 180deg at 50% 50%, #66FFE6 -160.13deg, #8093FF 42.37deg, #66FFE6 199.87deg, #8093FF 402.37deg),
+linear-gradient(0deg, #F4F4F4, #F4F4F4);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
+.scroll-arrow{
+    display: block;
+    margin: 0 auto;
+
+}
