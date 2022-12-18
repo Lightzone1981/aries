@@ -1,4 +1,4 @@
-![logo](./src/assets/logo/aries.svg)
+![logo](./src/Assets/Logo/aries.svg)
 **<h1>Artificial Intelligence Startup layout</h1>**
 [Demo](https://lightzone1981.github.io/aries/public)
 **<h2>About the project:</h2>**
