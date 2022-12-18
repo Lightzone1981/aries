@@ -1,67 +1,86 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-@font-face{
-    font-family: 'Ginora';
-    font-weight: 700;
-    src:url('./Fonts/Ginora_regular.woff') format('woff')
-} 
 
-@font-face{
-    font-family: 'Ginora semi bold';
-    src:url('./Fonts/Ginora_semi_bold.woff') format('woff')
+@font-face {
+	font-family: "Ginora";
+	font-weight: 700;
+	src: url("./Fonts/Ginora_regular.woff") format("woff");
 }
 
-@font-face{
-    font-family: 'Ginora bold';
-    src:url('./Fonts/Ginora_bold.woff') format('woff')
-} 
-/* * {
-    overflow: hidden;
-} */
+@font-face {
+	font-family: "Ginora semi bold";
+	src: url("./Fonts/Ginora_semi_bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Ginora bold";
+	src: url("./Fonts/Ginora_bold.woff") format("woff");
+}
 
 html {
-    font-family: 'Ginora';
+	font-family: "Ginora";
 }
-h1{
-    font-family: 'Ginora bold';
+h1 {
+	font-family: "Ginora bold";
 }
-.main-title::after{
-    background: url('../src/Assets/patterns/colored-pattern.png') center/contain no-repeat;
-    width: 6em;
-    height: 5em;
-    position: absolute;
-    content:'';
-    top:8em;
-    right:0;
+.main-title::after {
+	background: url("../src/Assets/patterns/colored-pattern.png") center/contain
+		no-repeat;
+	width: 6em;
+	height: 5em;
+	position: absolute;
+	content: "";
+	top: 8em;
+	right: 0;
 }
 @media (min-width: 768px) {
-    .main-title::after{
-        top:6em;
-        width: 5em;
-        height: 4em;
-    }
+	.main-title::after {
+		top: 6em;
+		width: 5em;
+		height: 4em;
+	}
 }
-mark{
-    background: conic-gradient(from 180deg at 50% 50%, #66FFE6 -160.13deg, #8093FF 42.37deg, #66FFE6 199.87deg, #8093FF 402.37deg),
-linear-gradient(0deg, #F4F4F4, #F4F4F4);
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+mark {
+	background: conic-gradient(
+			from 180deg at 50% 50%,
+			#66ffe6 -160.13deg,
+			#8093ff 42.37deg,
+			#66ffe6 199.87deg,
+			#8093ff 402.37deg
+		),
+		linear-gradient(0deg, #f4f4f4, #f4f4f4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-.scroll-arrow{
-    display: block;
-    margin: 0 auto;
-
+.scroll-arrow {
+	display: block;
+	margin: 0 auto;
 }
-.line{
-    background: linear-gradient(to right, transparent 0%, #8093FF 20%, #60DBD4 30%, #5CE4CF 60%, #7D9BFA 80%, transparent 100%);
-   
+.line {
+	background: linear-gradient(
+		to right,
+		transparent 0%,
+		#8093ff 20%,
+		#60dbd4 30%,
+		#5ce4cf 60%,
+		#7d9bfa 80%,
+		transparent 100%
+	);
 }
-.portfolios-btn:hover h3{
-    background: linear-gradient(to right, #99A9FF 0%, #5CE4CF 100%);
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.line--vertical {
+	background: linear-gradient(
+		to bottom,
+		transparent 0%,
+		#8093ff 20%,
+		#60dbd4 30%,
+		#5ce4cf 60%,
+		#7d9bfa 80%,
+		transparent 100%
+	);
+}
+.portfolios-btn:hover h3 {
+	background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
