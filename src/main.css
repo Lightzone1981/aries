@@ -79,7 +79,7 @@ mark {
 		transparent 100%
 	);
 }
-.portfolios-btn:hover h3 {
+.gradient-btn:hover, .portfolios-btn:hover h3 {
 	background: linear-gradient(to right, #99a9ff 0%, #5ce4cf 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
