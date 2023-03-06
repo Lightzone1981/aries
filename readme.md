@@ -1,6 +1,6 @@
 ![logo](./src/Assets/Logo/aries.svg)
 **<h1>Artificial Intelligence Startup layout</h1>**
-[Demo](https://lightzone1981.github.io/aries/public)
+[Demo](https://lightzone1981.github.io/aries-tailwind/public)
 **<h2>About the project:</h2>**
 This project is a practice application of the TailwindCSS framework.
 Responsive layout is built on the principle of Mobile first and is based on Flexbox technology and CSS Media queries.
